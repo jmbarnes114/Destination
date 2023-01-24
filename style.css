@@ -1,0 +1,45 @@
+html{
+box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 20%;
+}
+
+main {
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.with_border {
+    border: 1px solid;
+}
+
+article {
+    width: 40%;
+}
+
+#left_article {
+    border-color: red;
+    font-family: "Pacifico", cursive;
+}
+
+#right_article {
+    border-color: blue;
+    font-family: "Kavoon", cursive;
+}
+
+#cards_heading {
+    height: 5%;
+    border-color: teal;
+}
+
+#cards_container {
+    height: 90%;
+    border-color: aqua;
+}
